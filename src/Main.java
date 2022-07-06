@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 2000; // Стоимость  1 билета
-        int y = 20; // Стоимость 1 мили
+        int ticketPrice = 2000; // Стоимость  1 билета
+        int bonusPrice = 20; // Стоимость 1 мили
         boolean isPurchase = true;
 
         int mile;
@@ -11,7 +11,7 @@ public class Main {
             mile = 0;
         }
 
-        int bonus = x / y ;
+        int bonus = ticketPrice / bonusPrice ;
 
         System.out.println("Итоговое количество миль : "+ bonus);
     }
